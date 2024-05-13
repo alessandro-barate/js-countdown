@@ -11,8 +11,7 @@ let count = 11;
 start.addEventListener("click", function () {
   console.log("Pronti per l'arrivo dell'anno nuovo?");
 
-  /* Decremento il contatore iniziale, stampo il contatore in console e in
-    pagina */
+  // Decremento il contatore iniziale e lo stampo in console e in pagina
   timer = setInterval(function () {
     count--;
     console.log(count);
@@ -39,6 +38,7 @@ stop.addEventListener("click", function () {
   clearInterval(timer);
   document.getElementById("display-counter").innerHTML = "Buon anno!!";
   count = 11;
+  start.disabled = false;
 });
 
 // Evento click per resettare il countdown
