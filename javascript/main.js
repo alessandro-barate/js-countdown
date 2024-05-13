@@ -41,7 +41,7 @@ stop.addEventListener("click", function () {
   start.disabled = false;
 });
 
-// Evento click per resettare il countdown
+//Evento click per resettare il countdown
 reset.addEventListener("click", function () {
   document.getElementById("display-counter").innerHTML = "";
   count = 11;
