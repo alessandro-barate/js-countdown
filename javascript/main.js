@@ -18,7 +18,7 @@ start.addEventListener("click", function () {
     document.getElementById("display-counter").innerHTML = count;
 
     /* Condizione per avere la scritta a fine conteggio e il bottone start
-    disabilitato durante il countdown    */
+    disabilitato durante il countdown */
     if (count === 0) {
       console.log("Buon anno!!");
       document.getElementById("display-counter").innerHTML = "Buon anno!!";
